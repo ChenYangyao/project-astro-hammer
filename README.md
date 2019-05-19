@@ -28,6 +28,7 @@ Git仓库是对自己代码版本管理的好工具，而Github则可以在线�
 * 多人合作的工作模式。
 
 **Lecture 2: Statistical Learning in a Nutshell**
+
 时间 | 地点 | 讲座人 | 讲座资源
 --- | --- | --- | ---
 2019年5月16日 | 蒙民伟科技楼南楼-S727 | 陈洋遥（yangyao-17@mails.tsinghua.edu.cn）| 讲义：[[PPT]](./lectures/lecture2-statistical-learning-in-a-nutshell/src/slides.pdf)
