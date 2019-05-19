@@ -31,7 +31,25 @@ Git仓库是对自己代码版本管理的好工具，而Github则可以在线�
 
 **Series 1：Python编程技术简介和Python科学计算库的使用** （负责人：王凯）
 
+Topic 1: Python编程基础
+* Python基本语法和类型
 
+    在这一小节中，我会简单讲述一下Python的基本语法和内置类型；Python作为面向对象语言的相关语法知识；Python对函数式编程的支持、闭包和装饰器；Python内部的资源管理机制和垃圾回收机制。
+
+* Python编程风格
+
+    在这一小节中，我会主要讲解一些Python语言特有的编程风格，比如文档化，package和module的相关知识。
+    
+Topic 2: Python实用工具
+ 
+* Python实用工具（非数据处理）
+
+    这一小节主要讲解Python的一些实用的工具，如profile工具，logging包等。
+    
+* Python实用工具（数据处理）
+   
+   这一小节主要讲解Python中一些常用的数据包，如numpy, pandas, matplotlib等
+  
 **Series 2：程序设计和软件开发基础** （负责人：陈洋遥）
 
 Topic 1: 如何编写高效、安全和对用户友好的程序 - 面向对象的程序设计基础、算法与接口设计
