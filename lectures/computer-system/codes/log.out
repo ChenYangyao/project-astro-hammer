@@ -1,0 +1,4 @@
+parent (PID=40789) begins
+child (PID=40790) got 10
+parent (PID=40789) begins
+parent (PID=40789) got 45
