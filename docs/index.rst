@@ -6,6 +6,8 @@
 AstroHammer: Introduction to Astronomy Softwares, Methods and Techniques
 ========================================================================
 
+
+
 |badge1| |badge2| |badge3|
 
 .. |badge1| image:: https://readthedocs.org/projects/project-astro-hammer/badge/?version=latest
@@ -20,65 +22,26 @@ AstroHammer: Introduction to Astronomy Softwares, Methods and Techniques
    :target: https://github.com/ChenYangyao/project-astro-hammer/blob/master/LICENSE
    :alt: License
 
+About
+---------
+   
+   xxx
+
 .. toctree::
-   :maxdepth: 1
-   :caption: Project Management
+   :maxdepth: 2
+   :caption: Table of Contents
 
    usage/project-management/index
-   usage/project-management/git
-   usage/project-management/document
-   usage/project-management/work-on-servers
-   
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Development Environment
-
    usage/development-environment/index
-   usage/development-environment/shell
-   usage/development-environment/jupyter-notebook
-   usage/development-environment/command-line-based-ide
-   usage/development-environment/gui-based-ide
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Python Programming
-
    usage/python-programming/index
-   usage/python-programming/io
-   usage/python-programming/scientific-computation
-   usage/python-programming/plotting
-   usage/python-programming/language-features
-   usage/python-programming/astro
-
-.. toctree::
-   :maxdepth: 1
-   :caption: C/C++ Programming
-
    usage/cpp-programming/index
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Data Structures and Algorithms
-
    usage/algorithms/index
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Parallelism
-
-.. toctree::
-   :maxdepth: 1
-   :caption: GUI Development
-
-
-
-
+   usage/parallel-computation/index
+   usage/gui-development/index
 
 
 Indices and tables
-==================
+--------------------
 
 * :ref:`genindex`
 * :ref:`modindex`
