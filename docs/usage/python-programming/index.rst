@@ -18,3 +18,4 @@ Topics:
     plotting
     language-features
     astro
+    c-extension
