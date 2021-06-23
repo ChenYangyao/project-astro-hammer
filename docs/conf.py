@@ -13,7 +13,8 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import sphinx_rtd_theme
+# import sphinx_rtd_theme
+import sphinx_book_theme
 
 # -- Project information -----------------------------------------------------
 
@@ -51,10 +52,18 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 #
 # html_theme = 'alabaster'
-html_theme = "sphinx_rtd_theme"
+# html_theme = "sphinx_rtd_theme"
+# html_theme_options = {
+#     "navigation_depth": -1
+# }
+html_theme = "sphinx_book_theme"
 html_theme_options = {
-    "navigation_depth": -1
+    "repository_url": "https://github.com/ChenYangyao/project-astro-hammer",
+    "use_repository_button":    True,
+    "use_issues_button":        True,
+    "home_page_in_toc":         True,   
 }
+
 
 graphviz_output_format = "svg"
 
