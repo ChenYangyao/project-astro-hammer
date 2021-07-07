@@ -13,9 +13,10 @@ Topics:
     :maxdepth: 1
     :caption: Table of Contents
  
+    language-features
+    package-and-test
     io
     scientific-computation
     plotting
-    language-features
     astro
     c-extension
