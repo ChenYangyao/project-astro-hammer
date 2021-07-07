@@ -23,3 +23,5 @@ Topics:
     start
 
 .. code:: cpp
+
+    auto a = 1;
