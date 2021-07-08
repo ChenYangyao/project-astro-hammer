@@ -1077,7 +1077,12 @@ Your Sphinx documentation can be hosted on Github, and rendered in Read the Docs
 
 - Read the Docs site: `https://readthedocs.org/ <https://readthedocs.org/>`_. 
 
-Topics:
+
+Other Topics in the Future
+===========================
+
+Some topics are not decided yet. If you prefer any of them in the list or 
+not in the list, please tell us:
 
 - Latex (optional)
 - HTML (optional)
