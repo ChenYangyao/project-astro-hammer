@@ -148,8 +148,8 @@ in the background:
 
     $ scp -r foo hubble@166.111.131.54:/home/hubble
 
-    # Enter the password is asked.
-    # Then press Ctrl+Z to stop it and release the shell prompt.
+    # Enter the password if asked.
+    # Then press Ctrl+Z to stop scp and release the shell prompt.
 
     $ bg
 
@@ -215,6 +215,32 @@ to exclude them. For example:
 If lots of files need to be excluded, just create a new file, e.g., called :rawtext:`rsync-excl.txt`, 
 write down all the patterns into it, one per line, and specify the exclusion as 
 :rawtext:`--exclude-from=rsync-excl.txt`.
+
+:rawtext:`rsync` allows double-check of the contents before real synchronization:
+
+.. code-block:: bash
+
+    $ rsync -azP -nv foo hubble@166.111.131.54:/home/hubble
+
+Here the additional options are 
+
+- :rawtext:`-n`: dry-run. With this option, :rawtext:`rsync` prints the files
+  to be transferred, but does not really do it.
+- :rawtext:`-v`: verbose, which allow detailed information to print.
+
+With both :rawtext:`-n` and :rawtext:`-v` options, you can check the output:
+
+.. code-block:: text
+
+    sending incremental file list
+    foo/
+    foo/bar.txt
+    foo/baz.py
+
+    sent 122 bytes  received 55 bytes  354.00 bytes/sec
+    total size is 0  speedup is 0.00 (DRY RUN)
+
+If correct, you may drop the :rawtext:`-nv` and make actual synchronization.
 
 
 sshfs - Mounting Remote File System to Local 
