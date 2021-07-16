@@ -354,6 +354,8 @@ Many resources about Markdown writting can be found online. We list some of them
 - The github guides `Mastring Markdown <https://guides.github.com/features/mastering-markdown/>`_.
 - `Markdown cheat sheet <https://www.markdownguide.org/cheat-sheet/>`_ - a quick reference to the Markdown syntax.
 
+.. _project-man-doc-sphinx:
+
 Using Sphinx
 ===============
 
@@ -374,12 +376,14 @@ language, which is an extension of Markdown and a subset of HTML. It include man
 useful features to organize multiple documentation files, specify targets and cross-ref 
 them, and style the codes.
 
+.. _project-man-doc-sphinx-start:
 
 Start Your Sphinx Documentation
 -------------------------------
 
 Installation
 """""""""""""
+
 
 .. margin::
 
