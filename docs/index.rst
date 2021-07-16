@@ -66,7 +66,7 @@ The current prepared topics are listed below. We prepare to finish them in
 (at-least) 7 meetings.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    usage/project-management/index
    usage/development-environment/index
