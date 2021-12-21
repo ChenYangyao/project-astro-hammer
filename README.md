@@ -52,9 +52,9 @@ We prepare to finish them in (at-least) 7 meetings.
 
 The first lecture comes soon!
    
-   Topic                     |                              Speaker       |      Time         |       Location   |   Histotical Meetings
---- | --- | --- | --- | ---
-   Chapter 1. Project Management    |     Kai & Yangyao  |     07/??, 2021    |     zoom???       | 09/09, 2018, DOA-S327 (Kai)
+Topic                                 |     Speaker            |      Time & Location                                 |   Histotical Meetings
+--- | --- | --- | --- 
+Sec. 1.1 Git and Github               |     Kai Wang           |      12/21, 2021; DoA, Mong Man-wei S621             |   09/09, 2018; DoA, Mong Man-wei S327 (Kai Wang)
    
 
 
