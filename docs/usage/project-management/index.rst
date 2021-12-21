@@ -4,14 +4,6 @@ Chapter 1. Project Management
 
 .. include:: /global.rst
 
-
-Topics:
-
-- motivation and background
-- MOST IMPORTANT: computer environment. Files to download and software to install before the lecture. e.g., put environment initializer here :download:`env.sh <src/git/env.sh>`.
-- Work modes - local, server, collaboration.
-
-
 Sections
 ===========
 
@@ -32,6 +24,7 @@ Lecture Slides & Resources
     =========================================== =================================================================
     Section                                     Slides
     =========================================== =================================================================
+    Git and Github                              :download:`PDF <src/git/Ch1.1-git-and-github.pdf>`
     Document Your Project                       :download:`PPT <src/document/Ch1.2-document.pptx>`
     Work on the Server Machines                 :download:`PPT <src/work-on-servers/Ch1.3-work-on-servers.pptx>`
     =========================================== =================================================================
