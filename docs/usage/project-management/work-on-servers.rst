@@ -279,8 +279,49 @@ git - Synchronize your Code Repository
 
 Codes of human-readable text files are usually organized as :rawtext:`git` repositories. 
 Git also provides functionality to synchronize those repositories between computers. 
-These topics are introduced in the section :doc:`./git`.
 
+Suppose that you have a local git repository created by the way described 
+in the section :doc:`./git`. 
+To synchronize it to a remote machine, create an "empty" git repository on 
+your desired location in the remote machine. For example:
+
+.. code-block:: bash
+
+    mkdir repo-name && cd repo-name
+    git init
+
+To enable a push to this repository, run the following configuration commands 
+in this repository:
+
+.. code-block:: bash
+
+    git config receive.denyCurrentBranch ignore
+    git config --bool receive.denyNonFastForward false
+
+In your local repository, bind the remote repository by:
+
+.. code-block:: bash
+
+    git remote add origin hubble@166.111.131.54:/home/hubble/repo-name/.git
+
+Here, ``origin`` may be other arbitrary name for the remote repository. 
+Then, any local change can be synchronized to remote by ``push``:
+
+.. code-block:: bash
+
+    git push origin master
+
+In the remote repository, run ``reset`` to see the changes:
+
+.. code-block:: bash
+
+    git reset --hard
+
+.. hint::
+
+    The above git configurations and reset operations are dangerous when the 
+    modifications are made both remotely and locally. Refer to their manuals 
+    for detail.
 
 wget - Download File From HTTP Server
 ---------------------------------------
