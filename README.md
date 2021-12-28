@@ -27,7 +27,7 @@ are provided:
 - This [Github](https://github.com/ChenYangyao/project-astro-hammer) repository: all material (code samples, data samples, 
   lecture videos, problem sets and solutions) are hosted here.
 - The lecture notes are served in [Read the Docs](https://project-astro-hammer.readthedocs.io/).
-- Regular online meetings will be organize to introduce these topics. 
+- Regular meetings will be organize to introduce these topics. 
   The meetings will loop over all the topics periodically (1~2 years per loop),
   everyone is welcomed. See below for a Schedule.
 
@@ -44,17 +44,18 @@ to contribute to this project. For example:
 
 ## Lecture Notes
 
-
-The current prepared topics are listed on [Read the Docs](https://project-astro-hammer.readthedocs.io/). 
+Topics and lectures notes are listed on [Read the Docs](https://project-astro-hammer.readthedocs.io/). 
 We prepare to finish them in (at-least) 7 meetings.
 
-## Schedule
+## Organized and Scheduled Meetings
 
-The first lecture comes soon!
-   
-Topic                                 |     Speaker            |      Time & Location                                 |   Histotical Meetings
---- | --- | --- | --- 
-Sec. 1.1 Git and Github               |     Kai Wang           |      12/21, 2021; DoA, Mong Man-wei S621             |   09/09, 2018; DoA, Mong Man-wei S327 (Kai Wang)
+Topic                                                                     |     Speaker                 |       Time & Location                                
+--- | --- | ---
+Sec. 1.1 Git and Github                                                   |     Kai Wang                |       12/21, 2021; 10:00 AM; DoA, Mong Man-wei S621            
+Sec. 1.2 Doc Writting <br /> Sec. 1.3 Work on Servers                     |     Yangyao Chen            |       12/28, 2021; 10:00 AM; DoA, Mon Man-wei S727
+Sec. 2.3 Command-Line-Based IDEs                                          |     Kai Wang                |       ? 01/04, 2022; 10:00 AM; DoA, Mon Man-wei S727
+
+
    
 
 
