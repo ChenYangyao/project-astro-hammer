@@ -13,18 +13,16 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import sphinx_book_theme
+import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'AstroHammer'
-copyright = '2021, Yangyao Chen, Kai Wang'
-author = 'Yangyao Chen, Kai Wang'
+project = 'get-started-with-sphinx'
+copyright = '2021, Albert Einstein, Edwin Hubble'
+author = 'Albert Einstein, Edwin Hubble'
 
-release = '0.0.1'
-
-highlight_language = 'py'
-primary_domain = 'py'
+# The full version, including alpha/beta/rc tags
+release = '0.0.1.alpha'
 
 
 # -- General configuration ---------------------------------------------------
@@ -34,8 +32,13 @@ primary_domain = 'py'
 # ones.
 extensions = [
     "sphinx_rtd_theme",
-    "sphinx.ext.graphviz"
 ]
+
+html_theme = "sphinx_rtd_theme"
+html_theme_options = {
+    "navigation_depth": -1
+}
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -51,23 +54,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_book_theme"
-html_theme_options = {
-    "repository_url": "https://github.com/ChenYangyao/project-astro-hammer",
-    "use_repository_button":    True,
-    "use_issues_button":        True,
-    "home_page_in_toc":         True,   
-}
-graphviz_output_format = "svg"
+# html_theme = 'alabaster'
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-
-html_css_files = [
-    'css/custom.css'
-]
-
-master_doc = 'index'
-
-numfig = True

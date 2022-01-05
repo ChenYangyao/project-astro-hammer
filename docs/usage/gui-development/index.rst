@@ -1,5 +1,5 @@
 ***************************
-GUI Development
+Chapter 7. GUI Development
 ***************************
 
 Topics:
