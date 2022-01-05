@@ -368,7 +368,7 @@ to organize and generate docs. It parse the source files written in other
 markup languages (Markdown, ReST, etc.),
 collect them into a single documentation tree, and generate the readable documentations
 in various formats (HTML, PDF, etc.). Users can view the documentations 
-by Internest browsers or PDF readers. There are also websites that can host
+by Internet browsers or PDF readers. There are also websites that can host
 the documentation for you.
 
 The most widely used markup language for Sphinx documentation is ReStructuredText (ReST)
@@ -491,7 +491,7 @@ To build the documentation as HTML format for the readers, run:
   :align: right
 
 Now, the output files are put into :rawtext:`_build/html` folder. 
-Open the file :rawtext:`index.html` with your Internest browser to see the rendered 
+Open the file :rawtext:`index.html` with your Internet browser to see the rendered 
 documentation, as shown in the Figure.
 
 Because currently we only have one doc file :rawtext:`index.rst` in the documentation root,

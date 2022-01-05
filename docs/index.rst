@@ -76,20 +76,6 @@ The current prepared topics are listed below. We prepare to finish them in
    usage/parallel-computation/index
    usage/gui-development/index
 
-Schedule
---------------
-
-The first lecture comes soon!
-
-.. table:: 
-   :class: tight-table
-
-   ======================================================= =================== =================== ============= =====================================
-   Topic                                                   Speaker             Time                Location      Histotical Meetings
-   ======================================================= =================== =================== ============= =====================================
-   Chapter 1. Project Management                           Kai & Yangyao       07/??, 2021         zoom???       09/09, 2018, DOA-S327 (Kai)
-   ======================================================= =================== =================== ============= =====================================
-
 
 .. Indices and tables
 .. --------------------
